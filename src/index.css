@@ -6,3 +6,20 @@
 body{
   font-family: "Oxanium", sans-serif;
 }
+
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #040C18; /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: linear-gradient( #040C18, #AE67FA);
+  /* Color of the scrollbar handle */
+}
