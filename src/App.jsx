@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import CompanyDisplay from "./components/CompanyDisplay"
 import AboutSec from "./components/AboutSec"
+import MoreAboutSec from "./components/MoreAboutSec"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <CompanyDisplay />
       <AboutSec />
+      <MoreAboutSec />
     </div>
     </>
   )
