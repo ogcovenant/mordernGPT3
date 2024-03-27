@@ -7,11 +7,11 @@ import shopify from "../assets/shopify.png"
 const CompanyDisplay = () => {
   return (
     <div className="bg-gradient-to-r from-[#1b3357] to-[#040C18] p-5 flex items-center justify-center gap-5">
+      <img className="w-24" src={google} alt="Google Logo" />
       <img className="w-24" src={atlassian} alt="Atlassian Logo" />
-      <img className="w-24" src={dropBox} alt="Atlassian Logo" />
-      <img className="w-24" src={google} alt="Atlassian Logo" />
-      <img className="w-24" src={slack} alt="Atlassian Logo" />
-      <img className="w-24" src={shopify} alt="Atlassian Logo" />
+      <img className="w-24" src={slack} alt="Slack Logo" />
+      <img className="w-24" src={dropBox} alt="DropBox Logo" />
+      <img className="w-24" src={shopify} alt="Shopify Logo" />
     </div>
   )
 }

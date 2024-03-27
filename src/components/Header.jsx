@@ -17,7 +17,7 @@ const Header = () => {
         <div>
           <ul className="flex text-white gap-5 items-center">
             <li className="cursor-pointer">Sign In</li>
-            <li className="bg-[#FF4820] p-3 rounded-md w-24 text-center">Sign Up</li>
+            <li className="bg-[#FF4820] p-3 rounded-sm w-24 text-center cursor-pointer">Sign Up</li>
           </ul>
         </div>
       </div>
