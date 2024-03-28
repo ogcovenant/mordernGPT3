@@ -4,6 +4,7 @@ import CompanyDisplay from "./components/CompanyDisplay";
 import AboutSec from "./components/AboutSec";
 import MoreAboutSec from "./components/MoreAboutSec";
 import Imagination from "./components/Imagination";
+import RegisterSec from "./components/RegisterSec";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutSec />
         <MoreAboutSec />
         <Imagination />
+        <RegisterSec />
       </div>
     </>
   );
