@@ -6,6 +6,7 @@ import MoreAboutSec from "./components/MoreAboutSec";
 import Imagination from "./components/Imagination";
 import RegisterSec from "./components/RegisterSec";
 import BlogSec from "./components/BlogSec";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Imagination />
         <RegisterSec />
         <BlogSec />
+        <Footer />
       </div>
     </>
   );
