@@ -5,6 +5,7 @@ import AboutSec from "./components/AboutSec";
 import MoreAboutSec from "./components/MoreAboutSec";
 import Imagination from "./components/Imagination";
 import RegisterSec from "./components/RegisterSec";
+import BlogSec from "./components/BlogSec";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <MoreAboutSec />
         <Imagination />
         <RegisterSec />
+        <BlogSec />
       </div>
     </>
   );
