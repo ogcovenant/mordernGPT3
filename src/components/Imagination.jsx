@@ -2,14 +2,14 @@ import Img from "../assets/Imagination.png";
 
 const Imagination = () => {
   return (
-    <div className="flex justify-center items-end">
-      <div className="w-1/3 h-1/2 mt-0">
+    <div className="flex flex-col lg:flex-row justify-center items-end">
+      <div className="w-full lg:w-1/3 h-1/2 mt-0">
         <img
           src={Img}
           alt="Picture of a woman wearing a VR headset"
         />
       </div>
-      <div className="w-1/3">
+      <div className="w-full p-8 lg:p-0 lg:w-1/3">
         <p className="cursor-pointer text-[#71E5FF]">
           Request early access to get started
         </p>
