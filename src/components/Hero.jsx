@@ -3,7 +3,7 @@ import illustration from "../assets/hero.png";
 const Hero = () => {
   return (
     <div className="bg-gradient-to-r from-[#1b3357] to-[#040C18] p-5 flex flex-col md:flex-row  items-center justify-between">
-      <div className="w-full p-2">
+      <div className="w-full lg:w-1/2 p-2">
         <h1 className="text-6xl font-bold bg-gradient-to-r from-[#AE67FA] to-[#F49867] bg-clip-text text-transparent">
           Build Something amazing with OpenAI&apos;s GPT-3
         </h1>
