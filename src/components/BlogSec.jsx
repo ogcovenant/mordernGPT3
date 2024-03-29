@@ -16,12 +16,14 @@ const BlogSec = () => {
       <div className="mt-12 grid grid-cols-3 grid-rows-2 gap-y-10 gap-x-12 cursor-pointer max-h-fit">
         <div className="row-span-2 h-full">
           <div className="overflow-hidden h-1/4">
-          <img src={grid1} className="transition-all hover:scale-150"/>
+            <img src={grid1} className="transition-all hover:scale-150" />
           </div>
           <div className="bg-[#042C54] text-white p-5 h-3/4 flex flex-col justify-between">
             <div className="">
               <p>Sep 26, 2021</p>
-              <p className="mt-5">GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+              <p className="mt-5">
+                GPT-3 and Open AI is the future. Let us exlore how it is?
+              </p>
             </div>
             <div>
               <p>Read Full Article</p>
@@ -30,12 +32,14 @@ const BlogSec = () => {
         </div>
         <div className="h-full">
           <div className="h-2/5 overflow-hidden">
-          <img src={grid2} className="hover:scale-125 transition-all"/>
+            <img src={grid2} className="hover:scale-125 transition-all" />
           </div>
           <div className="bg-[#042C54] text-white p-5 h-3/5 flex flex-col justify-between">
             <div>
               <p>Sep 26, 2021</p>
-              <p className="mt-3">GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+              <p className="mt-3">
+                GPT-3 and Open AI is the future. Let us exlore how it is?
+              </p>
             </div>
             <div>
               <p>Read Full Article</p>
@@ -44,12 +48,14 @@ const BlogSec = () => {
         </div>
         <div className="h-full">
           <div className="h-2/5 overflow-hidden">
-          <img src={grid3} className="hover:scale-125 transition-all"/>
+            <img src={grid3} className="hover:scale-125 transition-all" />
           </div>
           <div className="bg-[#042C54] text-white p-5 h-3/5 flex flex-col justify-between">
             <div>
               <p>Sep 26, 2021</p>
-              <p className="mt-3">GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+              <p className="mt-3">
+                GPT-3 and Open AI is the future. Let us exlore how it is?
+              </p>
             </div>
             <div>
               <p>Read Full Article</p>
@@ -58,12 +64,14 @@ const BlogSec = () => {
         </div>
         <div className="h-full">
           <div className="h-2/5 overflow-hidden">
-          <img src={grid4} className="hover:scale-125 transition-all"/>
+            <img src={grid4} className="hover:scale-125 transition-all" />
           </div>
           <div className="bg-[#042C54] text-white p-5 h-3/5 flex flex-col justify-between">
             <div>
               <p>Sep 26, 2021</p>
-              <p className="mt-3">GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+              <p className="mt-3">
+                GPT-3 and Open AI is the future. Let us exlore how it is?
+              </p>
             </div>
             <div>
               <p>Read Full Article</p>
@@ -72,12 +80,14 @@ const BlogSec = () => {
         </div>
         <div className="h-full">
           <div className="h-2/5 overflow-hidden">
-          <img src={grid5} className="hover:scale-125 transition-all"/>
+            <img src={grid5} className="hover:scale-125 transition-all" />
           </div>
           <div className="bg-[#042C54] text-white p-5 h-3/5 flex flex-col justify-between">
             <div>
               <p>Sep 26, 2021</p>
-              <p className="mt-3">GPT-3 and Open AI is the future. Let us exlore how it is?</p>
+              <p className="mt-3">
+                GPT-3 and Open AI is the future. Let us exlore how it is?
+              </p>
             </div>
             <div>
               <p>Read Full Article</p>
