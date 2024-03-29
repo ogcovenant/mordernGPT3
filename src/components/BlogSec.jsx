@@ -6,15 +6,15 @@ import grid5 from "../assets/grid5.png";
 
 const BlogSec = () => {
   return (
-    <div className="mt-20 p-16">
+    <div className="mt-20 p-8 lg:p-16">
       <div>
         <h1 className="text-5xl font-black bg-gradient-to-r from-[#AE67FA] to-[#F49867] bg-clip-text text-transparent">
           A lot is happening,
           <br /> We are blogging about it.
         </h1>
       </div>
-      <div className="mt-12 grid grid-cols-3 grid-rows-2 gap-y-10 gap-x-12 cursor-pointer max-h-fit">
-        <div className="row-span-2 h-full">
+      <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-y-10 gap-x-12 cursor-pointer max-h-fit">
+        <div className="row-span-2 flex flex-col h-full">
           <div className="overflow-hidden h-1/4">
             <img src={grid1} className="transition-all hover:scale-150" />
           </div>
@@ -30,7 +30,7 @@ const BlogSec = () => {
             </div>
           </div>
         </div>
-        <div className="h-full">
+        <div className="h-full flex flex-col">
           <div className="h-2/5 overflow-hidden">
             <img src={grid2} className="hover:scale-125 transition-all" />
           </div>
@@ -46,7 +46,7 @@ const BlogSec = () => {
             </div>
           </div>
         </div>
-        <div className="h-full">
+        <div className="h-full flex flex-col">
           <div className="h-2/5 overflow-hidden">
             <img src={grid3} className="hover:scale-125 transition-all" />
           </div>
@@ -62,7 +62,7 @@ const BlogSec = () => {
             </div>
           </div>
         </div>
-        <div className="h-full">
+        <div className="h-full flex flex-col">
           <div className="h-2/5 overflow-hidden">
             <img src={grid4} className="hover:scale-125 transition-all" />
           </div>
@@ -78,7 +78,7 @@ const BlogSec = () => {
             </div>
           </div>
         </div>
-        <div className="h-full">
+        <div className="h-full flex flex-col">
           <div className="h-2/5 overflow-hidden">
             <img src={grid5} className="hover:scale-125 transition-all" />
           </div>
