@@ -2,7 +2,7 @@ const AboutSec = () => {
   return (
     <div className="p-5 text-white mt-8">
       <div className="p-10 bg-gradient-to-r from-[#040C18] to-[#1e447e] w-full mx-auto">
-        <div className="flex justify-between">
+        <div className="flex flex-col gap-6 md:flex-row justify-between">
           <div>
             <span className="mb-3 block p-[1.5px] w-16 bg-gradient-to-r from-[#AE67FA] to-[#F49867]"></span>
             <h1 className="text-bold text-2xl">What is GPT3</h1>

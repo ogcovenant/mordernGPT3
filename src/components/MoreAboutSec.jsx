@@ -1,7 +1,7 @@
 const MoreAboutSec = () => {
   return (
-    <div className="text-white mt-24 p-20 flex justify-between">
-      <div className="w-2/6">
+    <div className="text-white mt-24 p-10 flex flex-col md:flex-row justify-between">
+      <div className="w-full md:w-2/6">
         <h1 className="text-3xl font-bold bg-gradient-to-r from-[#AE67FA] to-[#F49867] bg-clip-text text-transparent">
           The Future is Now and You Just Need To Realize It. Step into Future
           Today & Make it Happen.
@@ -10,7 +10,7 @@ const MoreAboutSec = () => {
           Request Early Access to Get Started
         </p>
       </div>
-      <div className="w-7/12">
+      <div className="mt-10 md:mt-0 w-full md:w-7/12">
         <div className="flex items-start gap-7">
           <div className="w-4/12">
             <span className="mb-3 block p-[1.5px] w-16 bg-gradient-to-r from-[#AE67FA] to-[#F49867]"></span>
