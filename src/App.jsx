@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="bg-gradient-to-r from-[#1b3357] to-[#040C18]">
+      <div className="w-full overflow-hidden bg-gradient-to-r from-[#1b3357] to-[#040C18]">
         <Header />
         <Hero />
         <CompanyDisplay />
